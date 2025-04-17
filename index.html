@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Romeu da Silva</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="fade-in">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-container fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><b>Bruno Romeu da Silva</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link mx-3" href="#sobre">Home</a>
+                        <a class="nav-link mx-3" href="#skills">Skills</a>
+                        <a class="nav-link mx-3" href="#projetos">Laboratório/Projetos</a>
+                        <a class="nav-link mx-3" href="#contato">Contato</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="sobre" data-aos="fade-up" data-aos-duration="2000">
+        <div class="sobre-container">
+            <h3>Desenvolvedor Web</h3>
+            <h2><b>Bruno Romeu da Silva</b></h2>
+            <p>Sou estudante do 3º semestre de Análise e Desenvolvimento de Sistemas na ULBRA, com foco no desenvolvimento back-end. Tenho me dedicado ao desenvolvimento web utilizando principalmente Python com Django e PHP, linguagem com a qual já desenvolvi projetos completos e robustos, mesmo sem o uso de frameworks.</p>
+            <p>Apesar de ainda estar em formação, busco constantemente aprimorar minhas habilidades e estou aberto a desafios que envolvam também o desenvolvimento full stack. Acredito na importância de construir soluções funcionais, bem estruturadas e que realmente façam a diferença na rotina dos usuários.</p>
+            <p>Estou em busca da minha primeira oportunidade na área de tecnologia, seja como estagiário ou desenvolvedor júnior, onde eu possa contribuir com meu aprendizado contínuo, dedicação e vontade de evoluir profissionalmente.</p>
+
+            <a href="arquivos/curriculo.pdf" download class="btn btn-outline-light mt-4 button" target="_blank">
+                <i class="bi bi-download"></i> Baixar Currículo
+            </a>
+            <br>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/bruno-silva-2a3508303" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/bruno-romeu" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="mailto:bruno.rsilva2004@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="perfil-container">
+            <div class="foto-apresentacao">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Skills</h2>
+
+        <div id="image-carousel" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="img/skills/python.png" alt="Python"></li>
+                    <li class="splide__slide"><img src="img/skills/django.png" alt="Django"></li>
+                    <li class="splide__slide"><img src="img/skills/php.png" alt="PHP"></li>
+                    <li class="splide__slide"><img src="img/skills/mysql.png" alt="MySQL"></li>
+                    <li class="splide__slide"><img src="img/skills/git.png" alt="Git"></li>
+                    <li class="splide__slide"><img src="img/skills/js.png" alt="JavaScript"></li>
+                    <li class="splide__slide"><img src="img/skills/html.png" alt="HTML"></li>
+                    <li class="splide__slide"><img src="img/skills/css.png" alt="CSS"></li>
+                </ul>
+            </div>
+        </div>
+
+        <h2>Certificados</h2>
+
+        <div class="certificado-container">
+            <div class="certificados-card">
+                <div class="certificado-img">
+                    <img src="certificados/djangoMaster.jpg" alt="Certificado Django Master">
+                </div>
+                <div class="certificado-description">
+                    <h4>Django Master</h4>
+                    <p>Curso sobre o FrameWork Django para desenvolvimento na Web com Python.</p>
+                </div>
+            </div>
+
+            <div class="certificados-card">
+                <div class="certificado-img">
+                    <img src="certificados/certificado php.jpg" alt="Certificado Django Master">
+                </div>
+                <div class="certificado-description">
+                    <h4>PHP do Zero a Maestria</h4>
+                    <p>Curso sobre a linguagem PHP, que abrange desde conceitos básicos até projetos práticos completos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="projetos-title">Projetos</h2>
+        
+        <div class="cards-container">
+            <div class="card" style="width: 18rem;">
+                <img src="img/projetos/agenda.png" class="card-img-top" alt="Agenda">
+                <div class="card-body">
+                    <h5 class="card-title">Agenda</h5>
+                    <p class="card-text">Projeto CRUD completo que realiza o cadastro, alterações e exclusões de contatos e suas devidas informações no banco de dados, feito em PHP e utilizando Mysql como Banco de Dados.</p>
+                    <a href="projetos/agenda.html" class="btn btn-primary">Veja Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/projetos/blog.png" class="card-img-top" alt="Blog">
+                <div class="card-body">
+                    <h5 class="card-title">Blog</h5>
+                    <p class="card-text">Projeto inteiramente em PHP, com dados mocados para simular um blog de tecnologia. Foi utilizado o reaproveitamento de templates como o header e o footer no projeto como boas práticas e reaproveitamento de código.</p>
+                    <a href="projetos/blog.html" class="btn btn-primary">Veja Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/projetos/emDesenvolvimento.jpeg" class="card-img-top" alt="Projeto em desenvolvimento">
+                <div class="card-body">
+                    <h5 class="card-title">Revenda de Carros</h5>
+                    <p class="card-text">Projeto em desenvolvimento com Django.</p>
+                    <a href="projetos/revenda.html" class="btn btn-primary">Veja Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/projetos/moviestar.png" class="card-img-top" alt="MovieStar">
+                <div class="card-body">
+                    <h5 class="card-title">MovieStar</h5>
+                    <p class="card-text">O projeto se trata de um site onde os usuários podem fazer críticas e elogios à todos os filmes disponíveis atualmente, além de poder também realizar a inclusão de novos filmes caso ainda não estejam no sistema.</p>
+                    <a href="projetos/moviestar.html" class="btn btn-primary">Veja Mais</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/projetos/emDesenvolvimento.jpeg" class="card-img-top" alt="Projeto em desenvolvimento">
+                <div class="card-body">
+                    <h5 class="card-title">E-commerce</h5>
+                    <p class="card-text">Projeto em desenvolvimento com Django.</p>
+                    <a href="#" class="btn btn-primary">Veja Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" data-aos="fade-up" data-aos-duration="1500">
+        <h2>Entre em contato comigo!</h2>
+        <div class="contato">
+            <p> <a class="link-contato" href="mailto:bruno.rsilva2004@gmail.com"> <i class="bi bi-envelope email-contato"></i> bruno.rsilva2004@gmail.com</a></p>
+            <p> <a class="link-contato" href="https://wa.me/5551996065712" target="_blank"> <i class="bi bi-whatsapp"></i> Fale no WhatsApp</a></p>
+            <p><i class="bi bi-geo-alt"></i> Rio Grande do Sul, Brasil</p>
+        </div> 
+    </section>
+
+    <footer>
+        <p>Copyright &copy; Bruno Romeu da Silva 2025.</p>
+    </footer>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Splide('#image-carousel', {
+                type: 'loop',
+                drag: 'free',
+                focus: 'center',
+                perPage: 4,
+                arrows: false,
+                pagination: false,
+                gap: '20px', // Espaço entre os slides
+                autoScroll: {
+                    speed: 2,
+                    pauseOnHover: false,
+                    pauseOnFocus: false,
+                },
+                breakpoints: {
+                    1024: {
+                        perPage: 3,
+                    },
+                    768: {
+                        perPage: 2,
+                    },
+                    480: {
+                        perPage: 1,
+                    }
+                }
+            }).mount({ AutoScroll: window.splide.Extensions.AutoScroll });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.querySelector(".navbar");
+            if (navbar) {
+                const navbarHeight = navbar.offsetHeight;
+                document.body.style.paddingTop = `${navbarHeight + 20}px`; // +20 para espaçamento suave
+            }
+        });
+    </script>
+
+
+</body>
+</html>
