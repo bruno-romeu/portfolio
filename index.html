@@ -27,7 +27,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary nav-container fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><b>Bruno Romeu da Silva</b></a>
+                <a class="navbar-brand" href="#sobre"><b>Bruno Romeu da Silva</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -47,9 +47,10 @@
         <div class="sobre-container">
             <h3>Desenvolvedor Web</h3>
             <h2><b>Bruno Romeu da Silva</b></h2>
-            <p>Sou estudante do 3º semestre de Análise e Desenvolvimento de Sistemas na ULBRA, com foco no desenvolvimento back-end. Tenho me dedicado ao desenvolvimento web utilizando principalmente Python com Django e PHP, linguagem com a qual já desenvolvi projetos completos e robustos, mesmo sem o uso de frameworks.</p>
-            <p>Apesar de ainda estar em formação, busco constantemente aprimorar minhas habilidades e estou aberto a desafios que envolvam também o desenvolvimento full stack. Acredito na importância de construir soluções funcionais, bem estruturadas e que realmente façam a diferença na rotina dos usuários.</p>
-            <p>Estou em busca da minha primeira oportunidade na área de tecnologia, seja como estagiário ou desenvolvedor júnior, onde eu possa contribuir com meu aprendizado contínuo, dedicação e vontade de evoluir profissionalmente.</p>
+            <p>Sou estudante do 3º semestre de Análise e Desenvolvimento de Sistemas na ULBRA, com foco em back-end e na criação de aplicações robustas e funcionais. Tenho experiência prática com Python (Django) e PHP, desenvolvendo projetos completos e aplicando boas práticas, mesmo sem o uso de frameworks em alguns casos.</p>
+            <p>Possuo conhecimento sólido em bancos de dados relacionais (MySQL, Oracle) e SQL, além de familiaridade com Git, Bootstrap e Docker. Já integrei APIs em projetos, como a do Google Gemini, aplicando recursos de inteligência artificial e agregando valor com soluções modernas.</p>
+            <p>Embora meu foco seja back-end, tenho boa base em front-end (HTML, CSS e JavaScript), o que me permite desenvolver aplicações completas e com visão full stack. Essa versatilidade está presente nos projetos que venho desenvolvendo.</p>
+            <p>Busco minha primeira oportunidade como desenvolvedor, onde possa aplicar minhas habilidades, colaborar em projetos desafiadores e continuar evoluindo profissionalmente.</p>
 
             <a href="arquivos/curriculo.pdf" download class="btn btn-outline-light mt-4 button" target="_blank">
                 <i class="bi bi-download"></i> Baixar Currículo
@@ -83,6 +84,8 @@
                     <li class="splide__slide"><img src="img/skills/js.png" alt="JavaScript"></li>
                     <li class="splide__slide"><img src="img/skills/html.png" alt="HTML"></li>
                     <li class="splide__slide"><img src="img/skills/css.png" alt="CSS"></li>
+                    <li class="splide__slide"><img src="img/skills/bootstrap.png" alt="bootstrap"></li>
+                    <li class="splide__slide"><img src="img/skills/docker.png" alt="docker"></li>
                 </ul>
             </div>
         </div>
@@ -102,7 +105,7 @@
 
             <div class="certificados-card">
                 <div class="certificado-img">
-                    <img src="certificados/certificado php.jpg" alt="Certificado Django Master">
+                    <img src="certificados/certificado php.jpg" alt="Certificado PHP">
                 </div>
                 <div class="certificado-description">
                     <h4>PHP do Zero a Maestria</h4>
@@ -133,10 +136,10 @@
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
-                <img src="img/projetos/emDesenvolvimento.jpeg" class="card-img-top" alt="Projeto em desenvolvimento">
+                <img src="img/projetos/revenda.png" class="card-img-top" alt="Revenda de carros">
                 <div class="card-body">
                     <h5 class="card-title">Revenda de Carros</h5>
-                    <p class="card-text">Projeto em desenvolvimento com Django.</p>
+                    <p class="card-text">Projeto desenvolvido com Django, conta com um CRUD completo, autenticação de usuários e templates dinâmicos que adaptam o conteúdo conforme o login. Também foi integrada uma API de inteligência artificial para potencializar funcionalidades no sistema.</p>
                     <a href="projetos/revenda.html" class="btn btn-primary">Veja Mais</a>
                 </div>
             </div>
@@ -153,7 +156,7 @@
                 <div class="card-body">
                     <h5 class="card-title">E-commerce</h5>
                     <p class="card-text">Projeto em desenvolvimento com Django.</p>
-                    <a href="#" class="btn btn-primary">Veja Mais</a>
+                    <p><b>Em breve...</b></p>
                 </div>
             </div>
         </div>
@@ -215,7 +218,7 @@
             const navbar = document.querySelector(".navbar");
             if (navbar) {
                 const navbarHeight = navbar.offsetHeight;
-                document.body.style.paddingTop = `${navbarHeight + 20}px`; // +20 para espaçamento suave
+                document.body.style.paddingTop = `${navbarHeight + 20}px`; 
             }
         });
     </script>
